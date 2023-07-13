@@ -27,3 +27,25 @@ console.log(ans);  // undefined
 ans = 80;
 var ans;
 console.log(ans)   // 80
+
+
+// 4.7 식별자 네이밍 규칙
+// 1. 식별자에는 문자, 숫자, _, $ 를 사용할 수 있다.
+var name, name2, _name, $name;
+// 2. 식별자는 숫자로 시작할 수 없다.
+var 1name  // 틀린 표현
+// 3. 문자는 유니코드 문자를 뜻한다. 따라서 한국어도 사용이 가능하다.
+var 이름;
+// 4. 식별자는 대소문자를 구별한다.
+var hi;
+var HI;
+
+// 네이밍 컨벤션
+// 카멜 케이스
+var namingConvention
+// 스네이크 케이스
+var naming_convention
+// 파스칼 케이스
+var NamingConvention
+// 헝가리언케이스
+var strNamingConvention  // type과 식별자 이름
