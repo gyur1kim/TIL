@@ -9,3 +9,11 @@ console.log(oct);
 console.log(hex);
 console.log(bin === oct);  // 모두 true
 console.log(oct === hex);
+
+
+
+// 6.3 템플릿 리터럴
+let first = 'gyuri'
+let last = 'kim'
+console.log(`내 이름은 ${first} ${last}`)  // 백틱 이용 시
+console.log('내 이름은 ' + first + last)   // 기존의 따옴표 이용 시 문자열 연산자 이용
