@@ -56,4 +56,43 @@
   
   - `NaN`              산술 연산 불가
 
+# 6.2 문자열 타입
+
+- 16비트 유니코드 문자(`UTF-16`)의 집합
+
+- 작은따옴표 `''`, 큰따옴표 `""`, 백틱 ````으로 텍스트를 감싼다.
+  
+  - 키워드나 식별자 같은 **토큰과 구분**하기 위해 문자열을 감싼다!
+  
+  ```javascript
+  var string = hello;    // hello를 식별자로 인식한다 -> ReferenceError
+  var string = "hello";
+  ```
+
+- `C언어` : 문자의 배열로 문자열 표현
+
+- `Java` : 객체로 문자열 표현
+
+- `Javascript` : 원시 타입, 변경 불가능한 값
+
+# 6.3 템플릿 리터럴
+
+- `ES6`에서 도입된 새로운 문자열 표기법
+
+- `multi-line string`, `expression interpolation`, `tagged template` 
+
+- **표현식을 삽입**하려면 `${}`로 표현식을 감싼다.
+  
+  ```javascript
+  let first = 'gyuri'
+  let last = 'kim'
+  console.log(`내 이름은 ${first} ${last}`)
+  ```
+  
+  - 표현식의 평가 결과가 문자열이 아니더라도 문자열로 강제로 타입을 변환한다
+
+# 6.4 불리언 타입
+
+- 논리적 참, 거짓을 나타내는 `true`와 `false`
+
 
